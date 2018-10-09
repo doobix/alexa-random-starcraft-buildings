@@ -1,0 +1,23 @@
+{
+  "name": "alexa-random-starcraft-buildings",
+  "version": "1.0.0",
+  "description": "random starcraft buildings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doobix/alexa-random-starcraft-buildings.git"
+  },
+  "author": "doobix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doobix/alexa-random-starcraft-buildings/issues"
+  },
+  "homepage": "https://github.com/doobix/alexa-random-starcraft-buildings#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "see-starcraft": "0.0.3"
+  }
+}

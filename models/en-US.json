@@ -1,0 +1,43 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "random starcraft buildings",
+          "intents": [
+              {
+                  "name": "AMAZON.FallbackIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "GetRandomStarCraftBuilding",
+                  "slots": [],
+                  "samples": [
+                      "launch random starcraft buildings",
+                      "open random starcraft buildings",
+                      "get random starcraft buildings"
+                  ]
+              },
+              {
+                  "name": "AMAZON.YesIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NoIntent",
+                  "samples": []
+              }
+          ],
+          "types": []
+      }
+  }
+}
