@@ -22,8 +22,8 @@ const handlers = {
   'GetRandomStarCraftBuilding': function() {
     const ssc = new SeeStarCraft();
     const randomBuilding = ssc.getRandomBuilding();
-    const speechOutput = `Your random StarCraft building is: ${randomBuilding}`;
-    this.emit(':tellWithCard', speechOutput, 'Random StarCraft Buildings', randomBuilding);
+    const speechOutput = `Your random StarCraft building is: ${randomBuilding.name}`;
+    this.emit(':tellWithCard', speechOutput, 'Random StarCraft Buildings', randomBuilding.name);
   },
   'AMAZON.HelpIntent': function() {
     const speechOutput = 'This skill tells you a random StarCraft Brood War building. Would you like to hear one?';
